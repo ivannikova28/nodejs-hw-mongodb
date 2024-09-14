@@ -10,6 +10,7 @@
     "start": "node src/index.js",
     "lint": "eslint src/**/*.js"
   },
+  
   "keywords": [],
   "author": "Iryna Ivannikova <ira.ivannikova28@gmail.com>",
   "license": "ISC",
