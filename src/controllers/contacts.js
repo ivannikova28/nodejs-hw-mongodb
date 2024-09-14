@@ -4,6 +4,7 @@ import {
   getContactByIdFormDB,
 } from '../services/contacts.js';
 
+
 export async function getAllContacts(req, res) {
   const contacts = await getAllContactsFromDB();
   res.json({

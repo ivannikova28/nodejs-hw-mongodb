@@ -3,6 +3,7 @@ import { env } from '../utils/evn.js';
 
 export const initMongoConnection = async () => {
   try {
+    
     const user = env('MONGODB_USER');
     const password = env('MONGODB_PASSWORD');
     const url = env('MONGODB_URL');
