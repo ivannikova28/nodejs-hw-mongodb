@@ -32,6 +32,7 @@ export async function getContactById(req, res, next) {
 
 export async function addContact(req, res) {
   const contact = await createContact(req.body);
+  
   res.status(201).json({
     status: 201,
     message: 'Successfully created a contact!',
